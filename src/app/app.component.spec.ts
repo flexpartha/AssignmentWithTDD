@@ -3,11 +3,6 @@ import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
 
-  //const fixtureComponent = TestBed.createComponent(AppComponent);
-  //const appComponent = fixtureComponent.componentInstance;
-   //pretestItems;
-   //operationalItems;
-
   beforeEach(() => TestBed.configureTestingModule({
     declarations: [AppComponent],
   }));
