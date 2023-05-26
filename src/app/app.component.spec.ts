@@ -10,14 +10,16 @@ describe('AppComponent', () => {
   it("should return an array with the same length as the input array of pretestItems", () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    const result = app.pretestItems;
+    let pretestItems = ['Pretest Item 1', 'Pretest Item 2', 'Pretest Item 3', 'Pretest Item 4'];
+    const result = pretestItems;
     expect(result.length).toEqual(app.pretestItems.length);
   });
 
   it("should return an array with the same length as the input array of operationalItems", () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    const result = app.operationalItems;
+    let operationalItems = ['Operational Item 1', 'Operational Item 2', 'Operational Item 3', 'Operational Item 4', 'Operational Item 5', 'Operational Item 6'];
+    const result = operationalItems;
     expect(result.length).toEqual(app.operationalItems.length);
   });
 
